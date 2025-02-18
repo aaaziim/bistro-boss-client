@@ -2,6 +2,7 @@ import React from 'react'
 import Banner from './Banner'
 import CategorySwiper from './CategorySwiper'
 import PopularMenu from './PopularMenu'
+import Featured from './Featured'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <CategorySwiper></CategorySwiper>
       </div>
       <PopularMenu></PopularMenu>
+      <Featured></Featured>
     </div>
   )
 }
