@@ -32,33 +32,33 @@ const CategorySwiper = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-            <div>
-                <img src={img1} alt="slide1" />
-                <p className='text-3xl uppercase text-center text-white -mt-20'>Salad</p>
+            <div className='relative'>
+                <img className='rounded-lg' src={img1} alt="slide1" />
+                <p className='text-3xl uppercase  text-white absolute bottom-2 left-4'>Salad</p>
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div>
-                <img src={img2} alt="slide2" />
-                <p className='text-3xl uppercase text-center text-white -mt-20'>Soup</p>
+                <img className='rounded-lg' src={img2} alt="slide2" />
+                <p className='text-3xl uppercase  text-white absolute bottom-2 left-4'>Soup</p>
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div>
-                <img src={img3} alt="slide3" />
-                <p className='text-3xl uppercase text-center text-white -mt-20'>Desert</p>
+                <img className='rounded-lg' src={img3} alt="slide3" />
+                <p className='text-3xl uppercase  text-white absolute bottom-2 left-4'>Desert</p>
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div>
-                <img src={img4} alt="slide4" />
-                <p className='text-3xl uppercase text-center  text-white -mt-20'>Pizza</p>
+                <img className='rounded-lg' src={img4} alt="slide4" />
+                <p className='text-3xl uppercase  text-white absolute bottom-2 left-4'>Pizza</p>
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div>
-                <img src={img5} alt="slide5" />
-                <p className='text-3xl uppercase text-center text-white -mt-20'>Salad</p>
+                <img className='rounded-lg' src={img5} alt="slide5" />
+                <p className='text-3xl uppercase  text-white absolute bottom-2 left-4'>>Salad</p>
             </div>
         </SwiperSlide>
       </Swiper>

@@ -3,6 +3,7 @@ import Banner from './Banner'
 import CategorySwiper from './CategorySwiper'
 import PopularMenu from './PopularMenu'
 import Featured from './Featured'
+import Testimonials from './Testimonials'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       </div>
       <PopularMenu></PopularMenu>
       <Featured></Featured>
+      <Testimonials></Testimonials>
     </div>
   )
 }
