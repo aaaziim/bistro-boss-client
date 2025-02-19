@@ -3,10 +3,17 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
  
 import { RouterProvider } from 'react-router-dom'
+import {  HelmetProvider  } from 'react-helmet-async';
+
+
+
+
 import routes from './routes/routes.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <HelmetProvider>
     <RouterProvider router={routes}></RouterProvider>
+    </HelmetProvider>
   </StrictMode>,
 )
