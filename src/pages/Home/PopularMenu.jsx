@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import SectionHeading from '../Shared/SectionHeading'
 import MenuItem from '../Shared/MenuItem'
 
-const PopularMenu = () => {
+const PopularMenu = ({heading,subHeading}) => {
     const [popularMenu, setPopularMenu] = useState([])
     useEffect(()=>{
         // fetch popular menu data from API and update state here
@@ -17,10 +17,10 @@ const PopularMenu = () => {
   
     },[])
   return (
-    <section>
+    <section className='my-10'>
           <SectionHeading
-      subHeading={"From Our Menu"} 
-      heading={"Popular Items"}>
+      subHeading={subHeading} 
+      heading={heading}>
 
       </SectionHeading>
 
@@ -31,6 +31,10 @@ const PopularMenu = () => {
 
       </MenuItem>)}
       </div>
+    <div className='text-center'>
+        <button className="btn btn-outline border-0 border-b-4 border-b-black text-center">Order Now</button>
+    </div>
+        
 
     </section>
   )

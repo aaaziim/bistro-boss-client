@@ -17,7 +17,9 @@ const Home = () => {
       <div className='my-10'>
       <CategorySwiper></CategorySwiper>
       </div>
-      <PopularMenu></PopularMenu>
+      <PopularMenu
+      heading={"Popular Items"}
+      subHeading={"From Our Menu"}></PopularMenu>
       <Featured></Featured>
       <Testimonials></Testimonials>
     </div>
